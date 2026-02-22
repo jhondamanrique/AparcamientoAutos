@@ -37,7 +37,7 @@ public class Metodos {
     public ObjVehiculo[][] calcularNuevoPago(ObjVehiculo[][] m) {
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m.length; j++) {
-                m[i][j].setPagoActual((int) (m[i][j].getPagoAnterior() * 1.12));
+                m[i][j].setPagoActual((int) (m[i][j].getPagoAnterior() * 1.23));
 
             }
 
